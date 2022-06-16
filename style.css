@@ -1,0 +1,94 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body{
+    background-color: rgb(12, 24, 68);
+    color: white;
+    height: 100vh;
+    max-height: 100vh;
+    font-family: cursive;
+    overflow-x: hidden;
+}
+
+h1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+.top p{
+    box-sizing: border-box;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    color: white;
+}
+.top .picday{
+    max-width: 500px;
+    width: 500px;
+    min-width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 90px 10px black;
+    object-fit: cover;
+}
+
+.aut{
+    margin-top: 30px;
+}
+
+@media (max-width: 1025px) {
+    .top p{
+        margin-left: 0;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: white;
+    }
+}
+
+.un, .deux, .trois{
+    position: absolute;
+    top: 0%;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.un{
+    width: 200px;
+    left: 10%;
+}
+.deux{
+    top: 50%;
+    left: -5%;
+    opacity: calc(0.850);
+}
+
+.trois{
+    left: 45%;
+    top: 30%;
+    opacity: calc(0.7);
+}
+
+
+@media (max-width: 430px) {
+
+    .top .picday{
+        width: 300px;
+        min-width: 300px;
+        max-height: 300px;
+    }
+}
+
+
+@media (max-width: 1160px) {
+   .un{
+       top: 7%;
+   }
+}
