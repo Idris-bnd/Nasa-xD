@@ -5,7 +5,7 @@ fetch('https://api.nasa.gov/planetary/apod?api_key=jreafeoA0At21LTlnQXnx8vCnKgsr
 
     document.body.innerHTML = 
     `
-    <h1>Picture of the day : '${data.title}' </h1>
+    <h1>Picture of the day : ' ${data.title} ' </h1>
      
     <div class="top">
 
